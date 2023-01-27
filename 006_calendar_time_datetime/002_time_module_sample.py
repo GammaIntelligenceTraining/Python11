@@ -1,14 +1,17 @@
 import time
 
 start = time.time()
-time.sleep(7)  # Will pause program for seconds given in ()
+time.sleep(3)  # Will pause program for seconds given in ()
 
 print(time.time())  # Will return time as a UNIX timestamp (time from 1 Jan 1970 00:00:00)
 
 print(time.asctime())  # Will return time now
 
-print(time.gmtime())  # struct_time format
+print(time.gmtime())  # Greenwich struct_time format
 print(type(time.gmtime()))
+
+print(time.localtime())  # Local struct_time format
+
 
 now = time.gmtime()
 print(now[0])  # Will print tm_year
