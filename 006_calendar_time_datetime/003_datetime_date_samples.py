@@ -33,3 +33,7 @@ till_bday = bday - today
 print(till_bday)  # Will return days and hours until bday
 print(till_bday.days)  # Will return only days until bday
 print(till_bday.total_seconds())  # Will return seconds until bday
+
+# Timestamp examples
+print(datetime.datetime.now().timestamp())  # .timestamp() method converts datetime to timestamp
+print(datetime.datetime.fromtimestamp(1674833814.648319))  # creates date from timestamp
