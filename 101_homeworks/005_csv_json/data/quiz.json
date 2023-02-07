@@ -1,0 +1,160 @@
+{
+    "quiz": {
+        "sport": {
+            "q1": {
+                "question": "Which one is correct team name in NBA?",
+                "options": [
+                    "New York Bulls",
+                    "Los Angeles Kings",
+                    "Golden State Warriors",
+                    "Huston Rocket"
+                ],
+                "answer": "Huston Rocket"
+            },
+            "q2": {
+              "question": "What is the most popular sport in the world?",
+              "options": [
+                "Football (Soccer)",
+                "Basketball",
+                "Rugby",
+                "Tennis"
+              ],
+              "answer": "Football (Soccer)"
+            },
+            "q3": {
+              "question": "Who holds the record for the most home runs in a single Major League Baseball season?",
+              "options": [
+                "Babe Ruth",
+                "Barry Bonds",
+                "Hank Aaron",
+                "Willie Mays"
+              ],
+              "answer": "Barry Bonds"
+            },
+            "q4": {
+              "question": "What is the highest break in snooker history?",
+              "options": [
+                "147",
+                "146",
+                "145",
+                "144"
+              ],
+              "answer": "147"
+            },
+            "q5": {
+              "question": "Who is the fastest man in the world?",
+              "options": [
+                "Usain Bolt",
+                "Justin Gatlin",
+                "Tyson Gay",
+                "Yohan Blake"
+              ],
+              "answer": "Usain Bolt"
+            }
+        },
+        "maths": {
+            "q1": {
+                "question": "5 + 7 = ?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "answer": "12"
+            },
+            "q2": {
+                "question": "12 - 8 = ?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "4"
+            },
+            "q3": {
+              "question": "What is the value of x in the equation 2x + 1 = 7?",
+              "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "answer": "3"
+            },
+            "q4": {
+              "question": "What is the formula for the area of a circle?",
+              "options": [
+                "A = πr",
+                "A = r²",
+                "A = 2πr",
+                "A = πr²"
+              ],
+              "answer": "A = πr²"
+            },
+            "q5": {
+              "question": "What is the equation of the line that passes through the points (2, 3) and (4, 7)?",
+              "options": [
+                "y = 2x + 1",
+                "y = x + 5",
+                "y = 2x + 5",
+                "y = 3x + 1"
+              ],
+              "answer": "y = 2x + 5"
+            }
+        },
+        "python": {
+            "q1": {
+              "question": "What is the correct syntax to print 'Hello, World!' in Python?",
+              "options": [
+                "print 'Hello, World!'",
+                "print('Hello, World!')",
+                "println 'Hello, World!'",
+                "println('Hello, World!')"
+              ],
+              "answer": "print('Hello, World!')"
+            },
+            "q2": {
+              "question": "What is the output of the following code in Python?\nx = [1, 2, 3, 4, 5]\nprint(x[2])",
+              "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": "3"
+            },
+            "q3": {
+                "question": "What is the result of the following code in Python?\nx = 7\ny = 3\nprint(x % y)",
+                "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+                ],
+                "answer": "1"
+            },
+            "q4": {
+                "question": "Which of the following is not a Python loop statement?",
+                "options": [
+                "for",
+                "while",
+                "do while",
+                "foreach"
+                ],
+                "answer": "do while"
+            },
+            "q5": {
+                "question": "What is the file extension for a JSON file in Python?",
+                "options": [
+                ".json",
+                ".py",
+                ".js",
+                "xml"
+                ],
+                "answer": ".json"
+            }
+        }
+    }
+}
