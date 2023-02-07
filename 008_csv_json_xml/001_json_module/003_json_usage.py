@@ -12,3 +12,4 @@ for person in data['people']:
     print('Name: ' + name)
     print('Gross salary: ' + str(salary))
     print('Net salary: ' + str(salary * 0.8))
+    print('Your email is ' + str(emails))
