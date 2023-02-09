@@ -8,7 +8,7 @@
 \S      - Not Whitespace (space, tab, newline)
 
 # Anchors
-\b      - Word Boundary (beginning)
+\b      - Word Boundary (beginning/end)
 \B      - Not a Word Boundary (inside)
 ^       - Beginning of a String
 $       - End of a String
@@ -31,3 +31,4 @@ $       - End of a String
 # Email sample regex
 
 [a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+[\w.-]+@([\w-]+\.)+[\w-]{2,4}
