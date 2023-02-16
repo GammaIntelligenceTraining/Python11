@@ -36,6 +36,10 @@ people = [
         'name': 'Mary Pierce',
         'city': 'Dubai'
     },
+{
+        'name': 'Lee Hong',
+        'city': 'Tallinn'
+    }
 ]
 
 
