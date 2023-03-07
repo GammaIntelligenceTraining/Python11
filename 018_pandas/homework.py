@@ -1,3 +1,5 @@
+import pandas as pd
+
 '''
 Домашнее задание:
 Для опроса на Stack Overflow (https://insights.stackoverflow.com/survey)
@@ -9,3 +11,22 @@
 '''
 
 # https://tproger.ru/digest/data-science-python/#1
+
+survey_data = pd.read_csv('csv_files/survey_results_public.csv')
+
+# Hobbyist column grouping
+print(survey_data.groupby('MainBranch').count()['Respondent'])
+print(survey_data['Hobbyist'].value_counts())
+
+# Max, min and median age
+print(f"Maximum age: {survey_data['Age'].max()}")
+print(f"Minimum age: {survey_data['Age'].min()}")
+print(f"Median age: {survey_data['Age'].mean()}")
+
+# Country stats
+print(survey_data['Country'].value_counts(ascending=False))
+print(survey_data.groupby('Country').count().sort_values('Respondent', ascending=False)['Respondent'])
+
+# Currency stats
+print(survey_data[['CurrencyDesc', 'CurrencySymbol']].value_counts(ascending=False))
+print(survey_data.groupby('CurrencyDesc').count().sort_values('Respondent', ascending=False)[ 'Respondent'])

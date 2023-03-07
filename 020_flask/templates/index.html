@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page!</title>
+</head>
+<body>
+    <p>{{ text.get('a') + text['b'] }}</p>
+
+    {% if content %}
+        <h1>{{ content.upper() }}</h1>
+    {% else %}
+        <h1>There is no content!</h1>
+    {% endif %}
+
+    {% for x in range(10) %}
+        {% if x % 2 == 0 %}
+            <p>{{ x }} even</p>
+        {% else %}
+            <p>{{ x }} odd</p>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>
